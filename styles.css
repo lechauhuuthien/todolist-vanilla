@@ -38,7 +38,7 @@ body {
   justify-content: space-between;
   align-items: center;
 
-  width: 100%;
+  max-width: 100%;
   padding: 10px;
   margin-bottom: 10px;
   font-size: 16px;
@@ -59,7 +59,8 @@ body {
   gap: 10px;
 }
 
-.todo-form {
+.form {
+  width: 100%;
   display: flex;
   align-items: center;
   gap: 10px;
