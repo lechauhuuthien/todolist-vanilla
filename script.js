@@ -17,7 +17,7 @@ function addTodo(addedValue) {
     label: addedValue,
     isDone: false,
   };
-  todos.push(newTodo);
+  todos.unshift(newTodo);
   renderTodos();
 }
 /*-----------------------*/
